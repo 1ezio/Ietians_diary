@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    tools:context=".crsr.cursor_activity">
+
+    <include
+        android:id="@+id/include2"
+
+        layout="@layout/toolbar" />
+
+
+    <github.hellocsl.cursorwheel.CursorWheelLayout
+        android:id="@+id/Wheel_text"
+        android:layout_width="300dip"
+        android:layout_height="300dip"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:background="@drawable/cursordimens"
+        android:visibility="visible"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include2"
+        app:wheelBackgroundColor="#121212"
+        app:wheelCursorColor="@color/colorPrimary"
+        app:wheelCursorHeight="20dip"
+        app:wheelItemRotateMode="none"
+        app:wheelSelectedAngle="270">
+
+        <TextView
+            android:id="@+id/id_wheel_menu_center_item"
+            style="@style/TextAppearance.AppCompat.Large.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="TEXT WHEEL"
+            android:textColor="#FFFF"
+
+
+            />
+
+    </github.hellocsl.cursorwheel.CursorWheelLayout>
+
+</android.support.constraint.ConstraintLayout>

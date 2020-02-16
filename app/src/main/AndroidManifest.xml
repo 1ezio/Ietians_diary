@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.iet.ietiansdiary">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+    <application
+        android:name="com.iet.ietiansdiary.Cursor_activities.notice.notice_notifications"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6028758234054822~8044560729"/>
+        <activity android:name="com.iet.ietiansdiary.Contacts"></activity>
+        <activity android:name="com.iet.ietiansdiary.about_college" />
+        <activity android:name="com.iet.ietiansdiary.navigation_activities.developers.clubs.clubs_input" />
+        <activity android:name="com.iet.ietiansdiary.navigation_activities.developers.clubs.Clubs" />
+        <activity android:name="com.iet.ietiansdiary.log_out" />
+        <activity android:name="com.iet.ietiansdiary.firebase_login" />
+        <activity android:name="com.iet.ietiansdiary.Cursor_activities.study_material.sm_view_activity" />
+        <activity android:name="com.iet.ietiansdiary.Cursor_activities.study_material.sm_view_pdf" />
+        <activity android:name="com.iet.ietiansdiary.log.pdf_recycler_view" />
+        <activity android:name="com.iet.ietiansdiary.navigation_activities.developers.contributors.cont_image_activity" />
+        <activity android:name="com.iet.ietiansdiary.navigation_activities.developers.contributors.contributors_activity" />
+        <activity android:name="com.iet.ietiansdiary.navigation_activities.developers.dev_image_upload" />
+        <activity android:name="com.iet.ietiansdiary.navigation_activities.developers.developers_activity" />
+        <activity android:name="com.iet.ietiansdiary.navigation_activities.developers.developer" />
+        <activity android:name="com.iet.ietiansdiary.google_login" />
+        <activity android:name="com.iet.ietiansdiary.Cursor_activities.Timeline" />
+        <activity android:name="com.iet.ietiansdiary.Cursor_activities.notice.Recycler_view__" />
+        <activity
+            android:name="com.iet.ietiansdiary.navigation_drawer"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.iet.ietiansdiary.upld" />
+        <activity android:name="com.iet.ietiansdiary.Cursor_activities.notice.Notices" />
+        <activity android:name="com.iet.ietiansdiary.Cursor_activities.study_material.Study_Material" />
+        <activity android:name="com.iet.ietiansdiary.Cursor_activities.Chats" />
+        <activity android:name="com.iet.ietiansdiary.Cursor_activities.Syllabus" />
+        <activity android:name="com.iet.ietiansdiary.crsr.cursor_activity" />
+        <activity android:name="com.iet.ietiansdiary.log.logout" />
+        <activity android:name="com.iet.ietiansdiary.log.Google_login" />
+        <activity android:name="com.iet.ietiansdiary.view_pdf" />
+        <activity android:name="com.iet.ietiansdiary.dupload" />
+        <activity android:name="com.iet.ietiansdiary.login" />
+        <activity android:name="com.iet.ietiansdiary.cs" />
+        <activity android:name="com.iet.ietiansdiary.splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.iet.ietiansdiary.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#121212"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navigation_activities.developers.contributors.cont_image_activity">
+
+    <LinearLayout
+        android:id="@+id/ctop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/cbtn_select"
+            android:text="Select Image"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:background="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/cimg_name"
+            android:hint="Enter Name"
+            android:background="@drawable/border"
+            android:layout_width="250dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_below="@+id/ctop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/cselekedimg"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+        <ProgressBar
+            android:id="@+id/cprogressbar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            />
+
+        <Button
+            android:id="@+id/cbtn_upload"
+            android:text="upload image"
+            android:background="#000"
+            android:textColor="@color/colorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

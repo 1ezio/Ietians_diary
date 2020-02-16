@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">IETian\'s Diary</string>
+    <string name="web_client_id">xxxxxxxx..place your web client id here</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="None">None</string>
+    <string name="Syllabus">Syllabus</string>
+    <string name="Study_Material">Study Material</string>
+    <string name="Chats">Chats</string>
+    <string name="Notices">Notices</string>
+    <string name="title_activity_navigation_drawer">navigation_drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="Website"><a href="http://www.ietdavv.edu.in/">Click here to visit website</a></string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="devi_ahilya_university_indore_has_been_a_leading_university_of_central_india_the_university_within_the_framework_of_its_utd_opened_aself_financing_engineering_institute_namedinstitute_of_engineering_technology_iet_it_started_its_academic_journey_with_glorious_dreams_on04_september_1996_it_has_been_popularly_known_as_iet_davv"><![CDATA[Devi Ahilya University, Indore has been a leading University of central India. The University within the framework of its UTD opened aself-financing engineering Institute namedInstitute of Engineering & Technology (IET).It started its academic journey with glorious dreams on04 September 1996. It has been popularly known as IET-DAVV.]]></string>
+    <string name="Timeline">Timeline</string>
+</resources>
+

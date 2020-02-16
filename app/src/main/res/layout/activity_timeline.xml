@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <ListView
+
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#121212"
+
+        android:id="@+id/timeline_list"
+
+        tools:context=".Cursor_activities.Timeline"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        >
+
+    </ListView>
+
+</RelativeLayout>
